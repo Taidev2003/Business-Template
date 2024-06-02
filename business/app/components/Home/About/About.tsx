@@ -1,5 +1,5 @@
 import { BsCheck2Square } from "react-icons/bs";
-import SectionHeading from "../Helper/SectionHeading";
+import SectionHeading from "../../Helper/SectionHeading";
 import { BiMoney } from "react-icons/bi";
 import { GiSecurityGate } from "react-icons/gi";
 import Image from "next/image";
@@ -57,7 +57,7 @@ const About = () => {
             {/* Image content */}
             <div>
                 {/* image */}
-                <Image src={AboutImage} alt="aboutus" />
+                <Image data-aos="zoom-in" data-aos-anchor-placement="top-center" src={AboutImage} alt="aboutus" />
             </div>
         </div>
     </div>);
